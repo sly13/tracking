@@ -1,11 +1,15 @@
 import React, { Component } from "react";
 import SigninForm from "./SigninForm";
+import Header from "../Header";
 
 class SigninPage extends Component {
   render() {
     return (
-      <div className="container">
-        <SigninForm />
+      <div>
+        <Header />
+        <div className="container">
+          <SigninForm />
+        </div>
       </div>
     );
   }

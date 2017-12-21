@@ -7,14 +7,14 @@ class NavigationBar extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand navbar-light navbar-dark bg-dark">
-          <a className="navbar-brand" href="#">
+          <Link to="/" className="navbar-brand">
             <img
               src="http://getbootstrap.com/assets/brand/bootstrap-solid.svg"
               width="30"
               height="30"
               alt=""
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"

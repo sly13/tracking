@@ -54,7 +54,7 @@ class SignupForm extends Component {
           Sign up
         </button>
         <Link
-          to="/sign-in"
+          to="/"
           className="btn btn-lg btn-secondary btn-block"
           role="button"
         >
